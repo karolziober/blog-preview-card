@@ -16,7 +16,7 @@
     <title>Frontend Mentor | Blog preview card</title>
   </head>
   <body>
-    <main class="card">
+    <main class="card" aria-label="User profile card">
       <figure class="b-card">
         <img
           src="assets/images/illustration-article.svg"
@@ -25,7 +25,9 @@
       </figure>
       <section class="content">
         <span class="label">Learning</span>
-        <h4 class="date">Published 21 Dec 2023</h4>
+        <h4 class="date">
+          Published <time datetime="2023-12-21">21 Dec 2023</time>
+        </h4>
         <h1>HTML & CSS Foundations</h1>
         <p class="description">
           These languages are backbone of every website, defining structure,
